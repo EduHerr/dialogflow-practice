@@ -1,59 +1,32 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import products from "$lib/data-source/products.json";
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Products</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />LH4H20
+<div class="container">
+	<h1 class="display-4 fw-bold text-center text-white">
+		Productos
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+	<div class="row">
+		{#each products as producto}
+			<div class="col-md-4">
+				<div class="card mb-4" style="width: 18rem;">
+					<img src="{producto.img}" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">
+							{producto.nombre}
+						</h5>
+						<p class="card-text">
+							{producto.description}
+						</p>
+					</div>
+				</div>
+			</div>
+		{/each}
+	</div>
+</div>

@@ -1,0 +1,65 @@
+[
+    {
+        "categoria": "pallets",
+        "nombre": "CRITICOS",
+        "description": "1.200mt x 1.000mt x 0.144mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/citricos.jpg"
+    },
+    {
+        "categoria": "pallets",
+        "nombre": "ENLATADOS",
+        "description": "0.800mt x 1.200mt x 0.141mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/enlatados.jpg"
+    },
+    {
+        "categoria": "pallets",
+        "nombre": "ESPÁRRAGOS",
+        "description": "1.220mt x 1.020mt x 0.120mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/esparrago.jpg"
+    },
+    {
+        "categoria": "pallets",
+        "nombre": "PALTA",
+        "description": "1.220mt x 1.010mt x 0.122mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/palta.jpg"
+    },
+    {
+        "categoria": "pallets",
+        "nombre": "GRANADA",
+        "description": "1.250mt x 1.110mt x 0.141mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/granada.jpg"
+    },
+    {
+        "categoria": "pallets",
+        "nombre": "ENVASES",
+        "description": "1.000mt x 1.200mt x 0.129mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/envases.jpg"
+    },
+    {
+        "categoria": "bins",
+        "nombre": "BIN 01",
+        "description": "1.200mt x 1.000mt x 0.802mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/bin01.jpg"
+    },
+    {
+        "categoria": "bins",
+        "nombre": "BIN 02",
+        "description": "1.200mt x 1.000mt x 0.546mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/bin02.jpg"
+    },
+    {
+        "categoria": "bins",
+        "nombre": "BIN 03",
+        "description": "1.200mt x 1.000mt x 0.900mt",
+        "price": { "amount": 123, "currency": "USD" },
+        "img": "src/lib/images/products/bin03.jpg"
+    }
+]
