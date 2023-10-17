@@ -1,5 +1,6 @@
 <script>
 	import Header from '../components/Header.svelte';
+	import Dialog from '../components/Dialog.svelte';
 	import './styles.css';
 </script>
 
@@ -9,6 +10,8 @@
 	<main>
 		<slot />
 	</main>
+
+	<Dialog />
 
 	<footer>
 		<p>Powered by <strong>LH420</strong></p>
